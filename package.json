@@ -41,6 +41,9 @@
   "jest": {
     "testEnvironment": "node"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "get-stdin": "^5.0.1",

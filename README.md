@@ -24,6 +24,10 @@ Examples
   $ eslint --format jslint-xml | xmlappend final-report.xml
   $ stylelint --custom-formatter './jslint-xml.js' '**/*.css' | xmlappend final-report.xml
 ```
+## Requirements
+
+Node.js >= 6
+
 ## License
 
 Apache-2.0 © [Eugene Datsky](https://twitter.com/prncd)
