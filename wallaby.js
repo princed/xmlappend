@@ -1,6 +1,7 @@
 module.exports = () => ({
   files: [
-    'lib/*.js'
+    'lib/*.js',
+    'lib/**/*.snap'
   ],
 
   tests: [
