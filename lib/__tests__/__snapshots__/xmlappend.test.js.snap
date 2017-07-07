@@ -10,4 +10,4 @@ exports[`xmlappend should append 2 docs 1`] = `"<?xml version=\\"1.0\\" encoding
 
 exports[`xmlappend should append 2 docs in different order 1`] = `"<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?><root><child/><child/><child-doc21/><child-doc22/><child-doc11/><child-doc12/></root>"`;
 
-exports[`xmlappend should escape entities in attributes 1`] = `"<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?><root target-attr=\\"&apos;\\"><child/><child/><child-doc21 attr=\\"&quot;\\"/><child-doc22/></root>"`;
+exports[`xmlappend should escape entities in attributes 1`] = `"<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?><root target-attr=\\"&apos;\\"><child/><child/><child-doc21 attr=\\"&quot;\\"/><child-doc22><nested><nested attr=\\"&quot;\\"/></nested></child-doc22></root>"`;
