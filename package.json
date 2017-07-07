@@ -1,6 +1,6 @@
 {
   "name": "xmlappend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Merge xml files with the root node",
   "author": {
     "name": "Eugene Datsky",
