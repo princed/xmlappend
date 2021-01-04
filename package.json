@@ -20,11 +20,9 @@
   "devDependencies": {
     "eslint": "^4.1.0",
     "eslint-config-xo-space": "^0.16.0",
-    "jest": "^20.0.4",
-    "nsp": "^2.6.3"
+    "jest": "^20.0.4"
   },
   "scripts": {
-    "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest"
   },
